@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta http-equiv = "Content-Type" CONTENT = "text/html; charset = utf-8">
+<title>Регистрация|BTS Фан-сайт</title>
+<link rel = "stylesheet" href = "styles.css">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Регистрация</title>
+</head>
+
+<body>
+
+
+<div id="registration">
+
+  <h1 align="center" size="50px">Регистрация</h1>
+  
+  <form class="form-registration" action="https://www.bing.com/search?" method='get' target='_self'>
+        <p>Логин: <input required type="Text" name="last_name" value="" size=17></p>
+        <p>Возраст: <input required type="Number" name="age" value="" size=8 min="0" ></p>
+        <p>Хотите ли вы получать уведомления о новых подборках?
+            <input type="Radio" name="notifications" value="yes" checked>Да
+            <input type="Radio" name="notifications" value="no">Нет
+        </p>
+        
+        <p>Есть ли аккаунты в следующих соцсетях:
+            <input type="Checkbox" name="experience" value="vk" checked>VK
+            <input type="Checkbox" name="experience" value="facebook" checked>FACEBOOK
+            <input type="Checkbox" name="experience" value="instagram" checked>INSTAGRAM
+        </p>
+        <p>Пол:
+            <select name="gender">
+        <OPTION value="male">Мужской</OPTION> 
+        <OPTION value="female">Женский</OPTION> 
+        </select>
+        </p>
+        <p> Расскажите о себе:
+            <br>
+            <TEXTAREA name="textarea" rows=4 cols=80></TEXTAREA>
+        </p>
+        <p>Пароль: <input required type="Password" name="password" value="123" size=9></p>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="3"></p>
+        <p> <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </form>
+  </div>
+  
+ 
+  
+</body>
+
+</html>
